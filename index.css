@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@700&display=swap');
+
+body{
+    background-color:rgb(55, 54, 54);
+    
+}
+.container {
+    position: sticky;
+    display: grid;
+    background: rgb(134, 134, 134);
+    height: 50px;
+    width: 100vw;
+    border-radius: 3px;
+    color: white;
+    grid-template-columns: 50px 1050px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Suwannaphum', serif;
+   
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+.container1{
+    min-height: 70vh;
+   
+    background-color: black;
+    color: white;
+     font-family: 'Suwannaphum', serif;
+     display:flex ;
+     width: 70%;
+     border-radius: 12px;
+     margin: 23px auto;
+     padding: 34px;
+     background-image: url('bg.jpg');
+    
+}
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 70%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 0px 12px;
+    background-repeat: repeat-y;
+
+
+
+
+
+}
+.SongItem img{
+    height: 24px;
+    width: 24px;
+    border: 2px solid black;
+    border-radius: 12px;
+   
+}
+.SongItem i{
+cursor: pointer;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 75px;
+    bottom: 0px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icon{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left:9vw;
+    font-family: 'Suwannaphum', serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+

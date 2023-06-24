@@ -1,0 +1,26 @@
+font-family: 'Suwannaphum', serif;
+font-family: 'Suwannaphum', serif;
+
+
+
+
+<div class="container2">
+    <div class="menu" id="menu1"> Home</div>
+    <div class="menu" id="menu2">Search</div>
+    <div class="menu" id="menu3">Your Library</div>
+    <div class="menu" id="menu4">Creat Playlist</div>
+    <div class="menu" id="menu5">Liked Song</div> 
+</div>
+
+
+.container2{
+    display: grid;
+    height: 500px;
+    width: 200px;
+    padding: 10px;
+    background: rgb(34, 33, 33);
+    grid-template-rows:   50px 50px 50px 50px 50px;
+    color: white;
+    justify-content: center;
+}
+
